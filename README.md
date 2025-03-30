@@ -43,10 +43,6 @@ python3 -m http.server 5050
 
 Visit the frontend in your browser: http://localhost:5050
 
-1.View cart items
-2.Select campaigns (one per category)
-3.Click "Apply Selected Discounts"
-4.See the updated Final Price below
 
 ## Author
 
