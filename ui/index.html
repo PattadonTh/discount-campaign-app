@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Discount Cart</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <h1>Your Cart</h1>
+    <div id="cart-container"></div>
+    <div id="cart-total"></div>
+
+    <hr />
+
+    <h2>Apply Campaigns</h2>
+    <form id="campaign-form">
+        <label><input type="checkbox"  value="fixed50" data-category="Coupon" /> Fixed ฿50
+            (Coupon)</label><br />
+        <label><input type="checkbox"  value="percent10" data-category="Coupon" /> 10% Off
+            (Coupon)</label><br />
+        <label><input type="checkbox"  value="points68" data-category="On Top" /> Use 68 Points (On Top)</label><br />
+        <label><input type="checkbox"  value="clothing15" data-category="On Top" /> 15% Off
+            Clothing (On Top)</label><br />
+        <label><input type="checkbox"  value="seasonal_300_40" data-category="Seasonal" /> ฿40 at every ฿300
+            (Special)</label><br />
+        <br />
+        <button type="submit">Apply Selected Discounts</button>
+    </form>
+
+
+    <div id="discount-result"></div>
+
+    <script src="cart.js"></script>
+    <script src="campaigns.js"></script>
+
+</body>
+
+</html>

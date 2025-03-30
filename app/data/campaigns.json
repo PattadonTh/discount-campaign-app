@@ -1,0 +1,45 @@
+[
+  {
+    "id": "fixed50",
+    "type": "Fixed",
+    "category": "Coupon",
+    "parameters": {
+      "amount": 50
+    }
+  },
+  {
+    "id": "percent10",
+    "type": "Percentage",
+    "category": "Coupon",
+    "parameters": {
+      "percentage": 10
+    }
+  },
+  {
+    "id": "clothing15",
+    "type": "PercentageCategory",
+    "category": "On Top",
+    "parameters": {
+      "categories": {
+        "Clothing": 15
+      }
+    }
+  },
+  {
+    "id": "points68",
+    "type": "Points",
+    "category": "On Top",
+    "parameters": {
+      "points": 68
+    }
+  },
+  {
+    "id": "seasonal_300_40",
+    "type": "Special",
+    "category": "Seasonal",
+    "parameters": {
+      "every_x": 300,
+      "discount_y": 40
+    }
+  }
+]
